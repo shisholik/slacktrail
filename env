@@ -1,0 +1,4 @@
+TZ="America/New_York"
+ROLE_ARN=arn:aws:iam::[account id]:role/[role name]
+SLACK_WEBHOOK=https://hooks.slack.com/services/xxxxxxxxx/xxxxxxxxx/xxxxxxxxxxxxxxxxxxxxxxxx
+IGNORE_EVENTS=Describe,Get,List

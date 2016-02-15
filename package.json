@@ -1,0 +1,26 @@
+{
+  "name": "slacktrail",
+  "version": "0.0.1",
+  "description": "Pipe AWS CloudTrail events to Slack",
+  "main": "slacktrail.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeclimate/slacktrail.git"
+  },
+  "author": "John Pignata",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codeclimate/slacktrail/issues"
+  },
+  "homepage": "https://github.com/codeclimate/slacktrail#readme",
+  "dependencies": {
+    "aws-sdk": "^2.2.35",
+    "dotenv": "^2.0.0",
+    "lodash": "^4.3.0",
+    "q": "^1.4.1",
+    "slack-node": "^0.1.7"
+  },
+  "devDependencies": {
+    "jake": "^8.0.12"
+  }
+}
