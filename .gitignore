@@ -1,3 +1,6 @@
 .env
 pkg/*
 node_modules/
+.idea/
+*.iml
+event.js
